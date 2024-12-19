@@ -8,7 +8,7 @@ body {
 }
 
 .page-header{
- background-color: #ff9400;
+ background-color: #001f4d;
  margin-top: 0;
  padding: 20px 20px 20px 40px;
 }
@@ -17,10 +17,16 @@ body {
  color: #ffffff;
  font-size: 36pt;
  text-decoration: none;
+ text-align: center;
+}
+
+.page-header h4 {
+ color: #ffffff;
+ text-align: center;
 }
 
 .content{
- margin-left: 40px;
+   item-align: center;
 }
 
 h1, h2, h3, h4 {
@@ -29,6 +35,7 @@ h1, h2, h3, h4 {
 
 .date{
  color: #828282;
+ font-size: 14px;
 }
 
 .save{
@@ -48,10 +55,74 @@ h1, h2, h3, h4 {
 
 .post{
  margin-bottom: 70px;
+ background: rgba(0, 31, 63, 0.1);
+ border-radius: 5px;
+ box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+ margin: 20px auto;
+ padding: 20px;
+ max-width: 800px;
 }
 
 .post h1 a, .post h1 a:visited {
  color: #000000;
 }
 
+.pagination {
+    text-align: center;
+    margin-top: 30px;
+    justify-content: center;
+}
 
+.step-links {
+    display: inline-block;
+}
+
+.step-links a {
+    padding: 10px 20px;
+    margin: 0 5px;
+    text-decoration: none;
+    background-color: #007bff;
+    color: white;
+    border-radius: 5px;
+}
+
+.step-links a:hover {
+    background-color: #0056b3;
+}
+
+.step-links .current {
+    font-size: 16px;
+    color: #333;
+    padding: 10px 20px;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+}
+
+.step-links .current:hover {
+    background-color: #ddd;
+}
+
+.step-links a:first-child,
+.step-links a:last-child {
+    background-color: #28a745;
+}
+
+.step-links a:first-child:hover,
+.step-links a:last-child:hover {
+    background-color: #218838;
+}
+
+.read-more {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    text-decoration: none;
+    background-color: #007bff;
+    color: white;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.read-more:hover {
+    background-color: #0056b3;
+}
